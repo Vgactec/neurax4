@@ -1,0 +1,345 @@
+2025-05-13 11:36:47,633 - INFO - Simulateur de gravité quantique importé depuis le module core
+2025-05-13 11:36:47,634 - INFO - OptimizationTester initialized with data path: ../arc_data
+2025-05-13 11:36:47,634 - INFO - OptimizationTester initialized with data path: ../arc_data
+2025-05-13 11:36:47,634 - INFO - Found 0 training puzzles and 0 evaluation puzzles
+2025-05-13 11:36:47,634 - INFO - Found 0 training puzzles and 0 evaluation puzzles
+2025-05-13 11:36:47,634 - INFO - Starting all optimization tests
+2025-05-13 11:36:47,634 - INFO - Starting all optimization tests
+2025-05-13 11:36:47,634 - INFO - Testing simulator optimizations
+2025-05-13 11:36:47,634 - INFO - Testing simulator optimizations
+2025-05-13 11:36:47,634 - INFO - Testing simulator with grid size 20³
+2025-05-13 11:36:47,634 - INFO - Testing simulator with grid size 20³
+2025-05-13 11:36:47,634 - INFO - Initialized simulator with grid size 20³ and 10 time steps
+2025-05-13 11:36:47,634 - INFO - Initialized simulator with grid size 20³ and 10 time steps
+2025-05-13 11:36:47,634 - INFO - Planck Length: 1.6162550244237053e-35
+2025-05-13 11:36:47,634 - INFO - Planck Length: 1.6162550244237053e-35
+2025-05-13 11:36:47,634 - INFO - Initial space-time grid shape: (10, 20, 20, 20)
+2025-05-13 11:36:47,634 - INFO - Initial space-time grid shape: (10, 20, 20, 20)
+2025-05-13 11:36:47,671 - INFO - Grid size 20³ results:
+2025-05-13 11:36:47,671 - INFO - Grid size 20³ results:
+2025-05-13 11:36:47,671 - INFO -   Initialization: 0.0003 s
+2025-05-13 11:36:47,671 - INFO -   Initialization: 0.0003 s
+2025-05-13 11:36:47,671 - INFO -   Fluctuations: 0.0047 s
+2025-05-13 11:36:47,671 - INFO -   Fluctuations: 0.0047 s
+2025-05-13 11:36:47,671 - INFO -   Curvature: 0.0021 s
+2025-05-13 11:36:47,671 - INFO -   Curvature: 0.0021 s
+2025-05-13 11:36:47,671 - INFO -   Simulation step: 0.0053 s
+2025-05-13 11:36:47,671 - INFO -   Simulation step: 0.0053 s
+2025-05-13 11:36:47,671 - INFO -   Memory usage: 0.61 MB
+2025-05-13 11:36:47,671 - INFO -   Memory usage: 0.61 MB
+2025-05-13 11:36:47,671 - INFO - Testing simulator with grid size 32³
+2025-05-13 11:36:47,671 - INFO - Testing simulator with grid size 32³
+2025-05-13 11:36:47,671 - INFO - Initialized simulator with grid size 32³ and 10 time steps
+2025-05-13 11:36:47,671 - INFO - Initialized simulator with grid size 32³ and 10 time steps
+2025-05-13 11:36:47,671 - INFO - Planck Length: 1.6162550244237053e-35
+2025-05-13 11:36:47,671 - INFO - Planck Length: 1.6162550244237053e-35
+2025-05-13 11:36:47,671 - INFO - Initial space-time grid shape: (10, 32, 32, 32)
+2025-05-13 11:36:47,671 - INFO - Initial space-time grid shape: (10, 32, 32, 32)
+2025-05-13 11:36:47,837 - INFO - Grid size 32³ results:
+2025-05-13 11:36:47,837 - INFO - Grid size 32³ results:
+2025-05-13 11:36:47,837 - INFO -   Initialization: 0.0004 s
+2025-05-13 11:36:47,837 - INFO -   Initialization: 0.0004 s
+2025-05-13 11:36:47,837 - INFO -   Fluctuations: 0.0277 s
+2025-05-13 11:36:47,837 - INFO -   Fluctuations: 0.0277 s
+2025-05-13 11:36:47,837 - INFO -   Curvature: 0.0036 s
+2025-05-13 11:36:47,837 - INFO -   Curvature: 0.0036 s
+2025-05-13 11:36:47,837 - INFO -   Simulation step: 0.0237 s
+2025-05-13 11:36:47,837 - INFO -   Simulation step: 0.0237 s
+2025-05-13 11:36:47,837 - INFO -   Memory usage: 2.50 MB
+2025-05-13 11:36:47,837 - INFO -   Memory usage: 2.50 MB
+2025-05-13 11:36:47,837 - INFO - Testing simulator with grid size 50³
+2025-05-13 11:36:47,837 - INFO - Testing simulator with grid size 50³
+2025-05-13 11:36:47,837 - INFO - Initialized simulator with grid size 50³ and 10 time steps
+2025-05-13 11:36:47,837 - INFO - Initialized simulator with grid size 50³ and 10 time steps
+2025-05-13 11:36:47,838 - INFO - Planck Length: 1.6162550244237053e-35
+2025-05-13 11:36:47,838 - INFO - Planck Length: 1.6162550244237053e-35
+2025-05-13 11:36:47,838 - INFO - Initial space-time grid shape: (10, 50, 50, 50)
+2025-05-13 11:36:47,838 - INFO - Initial space-time grid shape: (10, 50, 50, 50)
+2025-05-13 11:36:48,248 - INFO - Grid size 50³ results:
+2025-05-13 11:36:48,248 - INFO - Grid size 50³ results:
+2025-05-13 11:36:48,248 - INFO -   Initialization: 0.0006 s
+2025-05-13 11:36:48,248 - INFO -   Initialization: 0.0006 s
+2025-05-13 11:36:48,248 - INFO -   Fluctuations: 0.0613 s
+2025-05-13 11:36:48,248 - INFO -   Fluctuations: 0.0613 s
+2025-05-13 11:36:48,248 - INFO -   Curvature: 0.0098 s
+2025-05-13 11:36:48,248 - INFO -   Curvature: 0.0098 s
+2025-05-13 11:36:48,248 - INFO -   Simulation step: 0.0655 s
+2025-05-13 11:36:48,248 - INFO -   Simulation step: 0.0655 s
+2025-05-13 11:36:48,248 - INFO -   Memory usage: 9.54 MB
+2025-05-13 11:36:48,248 - INFO -   Memory usage: 9.54 MB
+2025-05-13 11:36:48,249 - INFO - Testing adapter performance
+2025-05-13 11:36:48,249 - INFO - Testing adapter performance
+2025-05-13 11:36:48,249 - ERROR - No training puzzles available
+2025-05-13 11:36:48,249 - ERROR - No training puzzles available
+2025-05-13 11:36:48,249 - INFO - Testing neuron performance
+2025-05-13 11:36:48,249 - INFO - Testing neuron performance
+2025-05-13 11:36:48,249 - INFO - Testing neuron with input dimension 10
+2025-05-13 11:36:48,249 - INFO - Testing neuron with input dimension 10
+2025-05-13 11:36:48,249 - INFO - Neurone quantique 534a5d17 initialisé: dim=10, qfactor=0.5
+2025-05-13 11:36:48,249 - INFO - Neurone quantique 534a5d17 initialisé: dim=10, qfactor=0.5
+2025-05-13 11:36:48,314 - INFO - Neurone quantique 3d4ced0f initialisé: dim=10, qfactor=0.5
+2025-05-13 11:36:48,314 - INFO - Neurone quantique 3d4ced0f initialisé: dim=10, qfactor=0.5
+2025-05-13 11:36:48,314 - INFO - Neurone quantique 8fcf6d84 initialisé: dim=10, qfactor=0.5
+2025-05-13 11:36:48,314 - INFO - Neurone quantique 8fcf6d84 initialisé: dim=10, qfactor=0.5
+2025-05-13 11:36:48,314 - INFO - Neurone quantique fc988163 initialisé: dim=10, qfactor=0.5
+2025-05-13 11:36:48,314 - INFO - Neurone quantique fc988163 initialisé: dim=10, qfactor=0.5
+2025-05-13 11:36:48,314 - INFO - Neurone quantique 8a03ef57 initialisé: dim=10, qfactor=0.5
+2025-05-13 11:36:48,314 - INFO - Neurone quantique 8a03ef57 initialisé: dim=10, qfactor=0.5
+2025-05-13 11:36:48,314 - INFO - Neurone quantique 440a3ccd initialisé: dim=10, qfactor=0.5
+2025-05-13 11:36:48,314 - INFO - Neurone quantique 440a3ccd initialisé: dim=10, qfactor=0.5
+2025-05-13 11:36:48,314 - INFO - Neurone quantique f8c054cd initialisé: dim=5, qfactor=0.5
+2025-05-13 11:36:48,314 - INFO - Neurone quantique f8c054cd initialisé: dim=5, qfactor=0.5
+2025-05-13 11:36:48,314 - INFO - Réseau neuronal quantique ca5f6991 initialisé: config=[10, 5, 1]
+2025-05-13 11:36:48,314 - INFO - Réseau neuronal quantique ca5f6991 initialisé: config=[10, 5, 1]
+2025-05-13 11:36:48,320 - INFO - Époque 1/10, error: 0.4461
+2025-05-13 11:36:48,320 - INFO - Époque 1/10, error: 0.4461
+2025-05-13 11:36:48,324 - INFO - Époque 2/10, error: 0.4460
+2025-05-13 11:36:48,324 - INFO - Époque 2/10, error: 0.4460
+2025-05-13 11:36:48,329 - INFO - Époque 3/10, error: 0.4459
+2025-05-13 11:36:48,329 - INFO - Époque 3/10, error: 0.4459
+2025-05-13 11:36:48,333 - INFO - Époque 4/10, error: 0.4458
+2025-05-13 11:36:48,333 - INFO - Époque 4/10, error: 0.4458
+2025-05-13 11:36:48,338 - INFO - Époque 5/10, error: 0.4457
+2025-05-13 11:36:48,338 - INFO - Époque 5/10, error: 0.4457
+2025-05-13 11:36:48,342 - INFO - Époque 6/10, error: 0.4457
+2025-05-13 11:36:48,342 - INFO - Époque 6/10, error: 0.4457
+2025-05-13 11:36:48,347 - INFO - Époque 7/10, error: 0.4456
+2025-05-13 11:36:48,347 - INFO - Époque 7/10, error: 0.4456
+2025-05-13 11:36:48,352 - INFO - Époque 8/10, error: 0.4455
+2025-05-13 11:36:48,352 - INFO - Époque 8/10, error: 0.4455
+2025-05-13 11:36:48,357 - INFO - Époque 9/10, error: 0.4454
+2025-05-13 11:36:48,357 - INFO - Époque 9/10, error: 0.4454
+2025-05-13 11:36:48,364 - INFO - Époque 10/10, error: 0.4454
+2025-05-13 11:36:48,364 - INFO - Époque 10/10, error: 0.4454
+2025-05-13 11:36:48,364 - INFO - Neurone quantique a3a52fa9 initialisé: dim=10, qfactor=0.5
+2025-05-13 11:36:48,364 - INFO - Neurone quantique a3a52fa9 initialisé: dim=10, qfactor=0.5
+2025-05-13 11:36:48,364 - INFO - Neurone quantique 8d01bffb initialisé: dim=10, qfactor=0.5
+2025-05-13 11:36:48,364 - INFO - Neurone quantique 8d01bffb initialisé: dim=10, qfactor=0.5
+2025-05-13 11:36:48,364 - INFO - Neurone quantique 1a79141b initialisé: dim=10, qfactor=0.5
+2025-05-13 11:36:48,364 - INFO - Neurone quantique 1a79141b initialisé: dim=10, qfactor=0.5
+2025-05-13 11:36:48,365 - INFO - Neurone quantique 46005230 initialisé: dim=10, qfactor=0.5
+2025-05-13 11:36:48,365 - INFO - Neurone quantique 46005230 initialisé: dim=10, qfactor=0.5
+2025-05-13 11:36:48,365 - INFO - Neurone quantique 5de4f05e initialisé: dim=10, qfactor=0.5
+2025-05-13 11:36:48,365 - INFO - Neurone quantique 5de4f05e initialisé: dim=10, qfactor=0.5
+2025-05-13 11:36:48,365 - INFO - Neurone quantique cfada949 initialisé: dim=5, qfactor=0.5
+2025-05-13 11:36:48,365 - INFO - Neurone quantique cfada949 initialisé: dim=5, qfactor=0.5
+2025-05-13 11:36:48,365 - INFO - Réseau neuronal quantique 30cedb0e initialisé: config=[10, 5, 1]
+2025-05-13 11:36:48,365 - INFO - Réseau neuronal quantique 30cedb0e initialisé: config=[10, 5, 1]
+2025-05-13 11:36:48,422 - INFO - Époque 1/10, error: 0.4993
+2025-05-13 11:36:48,422 - INFO - Époque 1/10, error: 0.4993
+2025-05-13 11:36:48,469 - INFO - Époque 2/10, error: 0.4992
+2025-05-13 11:36:48,469 - INFO - Époque 2/10, error: 0.4992
+2025-05-13 11:36:48,506 - INFO - Époque 3/10, error: 0.4991
+2025-05-13 11:36:48,506 - INFO - Époque 3/10, error: 0.4991
+2025-05-13 11:36:48,546 - INFO - Époque 4/10, error: 0.4990
+2025-05-13 11:36:48,546 - INFO - Époque 4/10, error: 0.4990
+2025-05-13 11:36:48,586 - INFO - Époque 5/10, error: 0.4989
+2025-05-13 11:36:48,586 - INFO - Époque 5/10, error: 0.4989
+2025-05-13 11:36:48,630 - INFO - Époque 6/10, error: 0.4987
+2025-05-13 11:36:48,630 - INFO - Époque 6/10, error: 0.4987
+2025-05-13 11:36:48,669 - INFO - Époque 7/10, error: 0.4984
+2025-05-13 11:36:48,669 - INFO - Époque 7/10, error: 0.4984
+2025-05-13 11:36:48,719 - INFO - Époque 8/10, error: 0.4981
+2025-05-13 11:36:48,719 - INFO - Époque 8/10, error: 0.4981
+2025-05-13 11:36:48,761 - INFO - Époque 9/10, error: 0.4978
+2025-05-13 11:36:48,761 - INFO - Époque 9/10, error: 0.4978
+2025-05-13 11:36:48,816 - INFO - Époque 10/10, error: 0.4973
+2025-05-13 11:36:48,816 - INFO - Époque 10/10, error: 0.4973
+2025-05-13 11:36:48,816 - INFO - Input dimension 10 results:
+2025-05-13 11:36:48,816 - INFO - Input dimension 10 results:
+2025-05-13 11:36:48,817 - INFO -   Activation time: 0.000030 s
+2025-05-13 11:36:48,817 - INFO -   Activation time: 0.000030 s
+2025-05-13 11:36:48,817 - INFO -   Learning time: 0.000048 s
+2025-05-13 11:36:48,817 - INFO -   Learning time: 0.000048 s
+2025-05-13 11:36:48,817 - INFO -   Batch learning time (size 10): 0.0040 s
+2025-05-13 11:36:48,817 - INFO -   Batch learning time (size 10): 0.0040 s
+2025-05-13 11:36:48,817 - INFO -   Network training time (size 10): 0.0496 s
+2025-05-13 11:36:48,817 - INFO -   Network training time (size 10): 0.0496 s
+2025-05-13 11:36:48,817 - INFO -   Batch learning time (size 100): 0.0596 s
+2025-05-13 11:36:48,817 - INFO -   Batch learning time (size 100): 0.0596 s
+2025-05-13 11:36:48,817 - INFO -   Network training time (size 100): 0.4509 s
+2025-05-13 11:36:48,817 - INFO -   Network training time (size 100): 0.4509 s
+2025-05-13 11:36:48,817 - INFO - Testing neuron with input dimension 50
+2025-05-13 11:36:48,817 - INFO - Testing neuron with input dimension 50
+2025-05-13 11:36:48,817 - INFO - Neurone quantique 2aa0857d initialisé: dim=50, qfactor=0.5
+2025-05-13 11:36:48,817 - INFO - Neurone quantique 2aa0857d initialisé: dim=50, qfactor=0.5
+2025-05-13 11:36:48,862 - INFO - Neurone quantique 9762a35f initialisé: dim=50, qfactor=0.5
+2025-05-13 11:36:48,862 - INFO - Neurone quantique 9762a35f initialisé: dim=50, qfactor=0.5
+2025-05-13 11:36:48,863 - INFO - Neurone quantique 0c09a7ad initialisé: dim=50, qfactor=0.5
+2025-05-13 11:36:48,863 - INFO - Neurone quantique 0c09a7ad initialisé: dim=50, qfactor=0.5
+2025-05-13 11:36:48,863 - INFO - Neurone quantique e0f5c73e initialisé: dim=50, qfactor=0.5
+2025-05-13 11:36:48,863 - INFO - Neurone quantique e0f5c73e initialisé: dim=50, qfactor=0.5
+2025-05-13 11:36:48,863 - INFO - Neurone quantique fee9a109 initialisé: dim=50, qfactor=0.5
+2025-05-13 11:36:48,863 - INFO - Neurone quantique fee9a109 initialisé: dim=50, qfactor=0.5
+2025-05-13 11:36:48,863 - INFO - Neurone quantique 5db2842c initialisé: dim=50, qfactor=0.5
+2025-05-13 11:36:48,863 - INFO - Neurone quantique 5db2842c initialisé: dim=50, qfactor=0.5
+2025-05-13 11:36:48,863 - INFO - Neurone quantique fae3b6a1 initialisé: dim=5, qfactor=0.5
+2025-05-13 11:36:48,863 - INFO - Neurone quantique fae3b6a1 initialisé: dim=5, qfactor=0.5
+2025-05-13 11:36:48,863 - INFO - Réseau neuronal quantique 56856896 initialisé: config=[50, 5, 1]
+2025-05-13 11:36:48,863 - INFO - Réseau neuronal quantique 56856896 initialisé: config=[50, 5, 1]
+/home/runner/workspace/neurax_complet/core/neuron/quantum_neuron.py:84: RuntimeWarning: overflow encountered in exp
+  return 1 - np.exp(-z * phi)
+/home/runner/workspace/neurax_complet/core/neuron/quantum_neuron.py:207: RuntimeWarning: invalid value encountered in add
+  self.weights += weight_update + self.coherence * quantum_weight_update
+2025-05-13 11:36:48,873 - INFO - Époque 1/10, error: nan
+2025-05-13 11:36:48,873 - INFO - Époque 1/10, error: nan
+2025-05-13 11:36:48,877 - INFO - Époque 2/10, error: nan
+2025-05-13 11:36:48,877 - INFO - Époque 2/10, error: nan
+2025-05-13 11:36:48,881 - INFO - Époque 3/10, error: nan
+2025-05-13 11:36:48,881 - INFO - Époque 3/10, error: nan
+2025-05-13 11:36:48,886 - INFO - Époque 4/10, error: nan
+2025-05-13 11:36:48,886 - INFO - Époque 4/10, error: nan
+2025-05-13 11:36:48,892 - INFO - Époque 5/10, error: nan
+2025-05-13 11:36:48,892 - INFO - Époque 5/10, error: nan
+2025-05-13 11:36:48,907 - INFO - Époque 6/10, error: nan
+2025-05-13 11:36:48,907 - INFO - Époque 6/10, error: nan
+2025-05-13 11:36:48,913 - INFO - Époque 7/10, error: nan
+2025-05-13 11:36:48,913 - INFO - Époque 7/10, error: nan
+2025-05-13 11:36:48,918 - INFO - Époque 8/10, error: nan
+2025-05-13 11:36:48,918 - INFO - Époque 8/10, error: nan
+2025-05-13 11:36:48,922 - INFO - Époque 9/10, error: nan
+2025-05-13 11:36:48,922 - INFO - Époque 9/10, error: nan
+2025-05-13 11:36:48,926 - INFO - Époque 10/10, error: nan
+2025-05-13 11:36:48,926 - INFO - Époque 10/10, error: nan
+2025-05-13 11:36:48,926 - INFO - Neurone quantique dba65a96 initialisé: dim=50, qfactor=0.5
+2025-05-13 11:36:48,926 - INFO - Neurone quantique dba65a96 initialisé: dim=50, qfactor=0.5
+2025-05-13 11:36:48,926 - INFO - Neurone quantique 404b4bc8 initialisé: dim=50, qfactor=0.5
+2025-05-13 11:36:48,926 - INFO - Neurone quantique 404b4bc8 initialisé: dim=50, qfactor=0.5
+2025-05-13 11:36:48,927 - INFO - Neurone quantique acfa45a1 initialisé: dim=50, qfactor=0.5
+2025-05-13 11:36:48,927 - INFO - Neurone quantique acfa45a1 initialisé: dim=50, qfactor=0.5
+2025-05-13 11:36:48,927 - INFO - Neurone quantique 88a94049 initialisé: dim=50, qfactor=0.5
+2025-05-13 11:36:48,927 - INFO - Neurone quantique 88a94049 initialisé: dim=50, qfactor=0.5
+2025-05-13 11:36:48,927 - INFO - Neurone quantique 086b31fb initialisé: dim=50, qfactor=0.5
+2025-05-13 11:36:48,927 - INFO - Neurone quantique 086b31fb initialisé: dim=50, qfactor=0.5
+2025-05-13 11:36:48,927 - INFO - Neurone quantique 88a537d6 initialisé: dim=5, qfactor=0.5
+2025-05-13 11:36:48,927 - INFO - Neurone quantique 88a537d6 initialisé: dim=5, qfactor=0.5
+2025-05-13 11:36:48,927 - INFO - Réseau neuronal quantique c923fb4e initialisé: config=[50, 5, 1]
+2025-05-13 11:36:48,927 - INFO - Réseau neuronal quantique c923fb4e initialisé: config=[50, 5, 1]
+2025-05-13 11:36:48,974 - INFO - Époque 1/10, error: 0.5047
+2025-05-13 11:36:48,974 - INFO - Époque 1/10, error: 0.5047
+2025-05-13 11:36:49,025 - INFO - Époque 2/10, error: 917788916432.7931
+2025-05-13 11:36:49,025 - INFO - Époque 2/10, error: 917788916432.7931
+2025-05-13 11:36:49,066 - INFO - Époque 3/10, error: 0.5006
+2025-05-13 11:36:49,066 - INFO - Époque 3/10, error: 0.5006
+2025-05-13 11:36:49,123 - INFO - Époque 4/10, error: 0.5006
+2025-05-13 11:36:49,123 - INFO - Époque 4/10, error: 0.5006
+2025-05-13 11:36:49,167 - INFO - Époque 5/10, error: 0.5006
+2025-05-13 11:36:49,167 - INFO - Époque 5/10, error: 0.5006
+2025-05-13 11:36:49,213 - INFO - Époque 6/10, error: 0.5006
+2025-05-13 11:36:49,213 - INFO - Époque 6/10, error: 0.5006
+2025-05-13 11:36:49,256 - INFO - Époque 7/10, error: 0.5006
+2025-05-13 11:36:49,256 - INFO - Époque 7/10, error: 0.5006
+2025-05-13 11:36:49,313 - INFO - Époque 8/10, error: 0.5006
+2025-05-13 11:36:49,313 - INFO - Époque 8/10, error: 0.5006
+2025-05-13 11:36:49,361 - INFO - Époque 9/10, error: 0.5006
+2025-05-13 11:36:49,361 - INFO - Époque 9/10, error: 0.5006
+2025-05-13 11:36:49,404 - INFO - Époque 10/10, error: 0.5006
+2025-05-13 11:36:49,404 - INFO - Époque 10/10, error: 0.5006
+2025-05-13 11:36:49,404 - INFO - Input dimension 50 results:
+2025-05-13 11:36:49,404 - INFO - Input dimension 50 results:
+2025-05-13 11:36:49,404 - INFO -   Activation time: 0.000014 s
+2025-05-13 11:36:49,404 - INFO -   Activation time: 0.000014 s
+2025-05-13 11:36:49,404 - INFO -   Learning time: 0.000029 s
+2025-05-13 11:36:49,404 - INFO -   Learning time: 0.000029 s
+2025-05-13 11:36:49,404 - INFO -   Batch learning time (size 10): 0.0049 s
+2025-05-13 11:36:49,404 - INFO -   Batch learning time (size 10): 0.0049 s
+2025-05-13 11:36:49,404 - INFO -   Network training time (size 10): 0.0614 s
+2025-05-13 11:36:49,404 - INFO -   Network training time (size 10): 0.0614 s
+2025-05-13 11:36:49,404 - INFO -   Batch learning time (size 100): 0.0394 s
+2025-05-13 11:36:49,404 - INFO -   Batch learning time (size 100): 0.0394 s
+2025-05-13 11:36:49,404 - INFO -   Network training time (size 100): 0.4762 s
+2025-05-13 11:36:49,404 - INFO -   Network training time (size 100): 0.4762 s
+2025-05-13 11:36:49,404 - INFO - Testing neuron with input dimension 100
+2025-05-13 11:36:49,404 - INFO - Testing neuron with input dimension 100
+2025-05-13 11:36:49,404 - INFO - Neurone quantique 9904a637 initialisé: dim=100, qfactor=0.5
+2025-05-13 11:36:49,404 - INFO - Neurone quantique 9904a637 initialisé: dim=100, qfactor=0.5
+2025-05-13 11:36:49,449 - INFO - Neurone quantique a7288762 initialisé: dim=100, qfactor=0.5
+2025-05-13 11:36:49,449 - INFO - Neurone quantique a7288762 initialisé: dim=100, qfactor=0.5
+2025-05-13 11:36:49,450 - INFO - Neurone quantique 16d0d415 initialisé: dim=100, qfactor=0.5
+2025-05-13 11:36:49,450 - INFO - Neurone quantique 16d0d415 initialisé: dim=100, qfactor=0.5
+2025-05-13 11:36:49,450 - INFO - Neurone quantique 80ec53f1 initialisé: dim=100, qfactor=0.5
+2025-05-13 11:36:49,450 - INFO - Neurone quantique 80ec53f1 initialisé: dim=100, qfactor=0.5
+2025-05-13 11:36:49,450 - INFO - Neurone quantique 0b18c256 initialisé: dim=100, qfactor=0.5
+2025-05-13 11:36:49,450 - INFO - Neurone quantique 0b18c256 initialisé: dim=100, qfactor=0.5
+2025-05-13 11:36:49,450 - INFO - Neurone quantique 6e82ea0f initialisé: dim=100, qfactor=0.5
+2025-05-13 11:36:49,450 - INFO - Neurone quantique 6e82ea0f initialisé: dim=100, qfactor=0.5
+2025-05-13 11:36:49,450 - INFO - Neurone quantique d90cdefc initialisé: dim=5, qfactor=0.5
+2025-05-13 11:36:49,450 - INFO - Neurone quantique d90cdefc initialisé: dim=5, qfactor=0.5
+2025-05-13 11:36:49,450 - INFO - Réseau neuronal quantique af6bba69 initialisé: config=[100, 5, 1]
+2025-05-13 11:36:49,450 - INFO - Réseau neuronal quantique af6bba69 initialisé: config=[100, 5, 1]
+2025-05-13 11:36:49,457 - INFO - Époque 1/10, error: 0.6690
+2025-05-13 11:36:49,457 - INFO - Époque 1/10, error: 0.6690
+2025-05-13 11:36:49,461 - INFO - Époque 2/10, error: 0.6343
+2025-05-13 11:36:49,461 - INFO - Époque 2/10, error: 0.6343
+2025-05-13 11:36:49,466 - INFO - Époque 3/10, error: 0.6306
+2025-05-13 11:36:49,466 - INFO - Époque 3/10, error: 0.6306
+2025-05-13 11:36:49,470 - INFO - Époque 4/10, error: 0.6300
+2025-05-13 11:36:49,470 - INFO - Époque 4/10, error: 0.6300
+2025-05-13 11:36:49,474 - INFO - Époque 5/10, error: 0.6314
+2025-05-13 11:36:49,474 - INFO - Époque 5/10, error: 0.6314
+2025-05-13 11:36:49,477 - INFO - Époque 6/10, error: 0.6344
+2025-05-13 11:36:49,477 - INFO - Époque 6/10, error: 0.6344
+2025-05-13 11:36:49,483 - INFO - Époque 7/10, error: 0.6321
+2025-05-13 11:36:49,483 - INFO - Époque 7/10, error: 0.6321
+2025-05-13 11:36:49,489 - INFO - Époque 8/10, error: 0.6303
+2025-05-13 11:36:49,489 - INFO - Époque 8/10, error: 0.6303
+2025-05-13 11:36:49,497 - INFO - Époque 9/10, error: 0.6285
+2025-05-13 11:36:49,497 - INFO - Époque 9/10, error: 0.6285
+2025-05-13 11:36:49,503 - INFO - Époque 10/10, error: 0.6283
+2025-05-13 11:36:49,503 - INFO - Époque 10/10, error: 0.6283
+2025-05-13 11:36:49,503 - INFO - Neurone quantique 7992f559 initialisé: dim=100, qfactor=0.5
+2025-05-13 11:36:49,503 - INFO - Neurone quantique 7992f559 initialisé: dim=100, qfactor=0.5
+2025-05-13 11:36:49,503 - INFO - Neurone quantique e61999b3 initialisé: dim=100, qfactor=0.5
+2025-05-13 11:36:49,503 - INFO - Neurone quantique e61999b3 initialisé: dim=100, qfactor=0.5
+2025-05-13 11:36:49,503 - INFO - Neurone quantique 4fb3cbfa initialisé: dim=100, qfactor=0.5
+2025-05-13 11:36:49,503 - INFO - Neurone quantique 4fb3cbfa initialisé: dim=100, qfactor=0.5
+2025-05-13 11:36:49,503 - INFO - Neurone quantique c3575044 initialisé: dim=100, qfactor=0.5
+2025-05-13 11:36:49,503 - INFO - Neurone quantique c3575044 initialisé: dim=100, qfactor=0.5
+2025-05-13 11:36:49,503 - INFO - Neurone quantique 2e394e00 initialisé: dim=100, qfactor=0.5
+2025-05-13 11:36:49,503 - INFO - Neurone quantique 2e394e00 initialisé: dim=100, qfactor=0.5
+2025-05-13 11:36:49,503 - INFO - Neurone quantique a55d5189 initialisé: dim=5, qfactor=0.5
+2025-05-13 11:36:49,503 - INFO - Neurone quantique a55d5189 initialisé: dim=5, qfactor=0.5
+2025-05-13 11:36:49,503 - INFO - Réseau neuronal quantique e09cd03a initialisé: config=[100, 5, 1]
+2025-05-13 11:36:49,503 - INFO - Réseau neuronal quantique e09cd03a initialisé: config=[100, 5, 1]
+2025-05-13 11:36:49,547 - INFO - Époque 1/10, error: 0.4977
+2025-05-13 11:36:49,547 - INFO - Époque 1/10, error: 0.4977
+2025-05-13 11:36:49,590 - INFO - Époque 2/10, error: 0.4966
+2025-05-13 11:36:49,590 - INFO - Époque 2/10, error: 0.4966
+2025-05-13 11:36:49,644 - INFO - Époque 3/10, error: 0.4977
+2025-05-13 11:36:49,644 - INFO - Époque 3/10, error: 0.4977
+2025-05-13 11:36:49,695 - INFO - Époque 4/10, error: 0.4972
+2025-05-13 11:36:49,695 - INFO - Époque 4/10, error: 0.4972
+2025-05-13 11:36:49,738 - INFO - Époque 5/10, error: 0.4967
+2025-05-13 11:36:49,738 - INFO - Époque 5/10, error: 0.4967
+2025-05-13 11:36:49,785 - INFO - Époque 6/10, error: 0.4954
+2025-05-13 11:36:49,785 - INFO - Époque 6/10, error: 0.4954
+2025-05-13 11:36:49,840 - INFO - Époque 7/10, error: 0.4954
+2025-05-13 11:36:49,840 - INFO - Époque 7/10, error: 0.4954
+2025-05-13 11:36:49,886 - INFO - Époque 8/10, error: 0.4955
+2025-05-13 11:36:49,886 - INFO - Époque 8/10, error: 0.4955
+2025-05-13 11:36:49,930 - INFO - Époque 9/10, error: 0.4953
+2025-05-13 11:36:49,930 - INFO - Époque 9/10, error: 0.4953
+2025-05-13 11:36:50,004 - INFO - Époque 10/10, error: 0.4955
+2025-05-13 11:36:50,004 - INFO - Époque 10/10, error: 0.4955
+2025-05-13 11:36:50,004 - INFO - Input dimension 100 results:
+2025-05-13 11:36:50,004 - INFO - Input dimension 100 results:
+2025-05-13 11:36:50,004 - INFO -   Activation time: 0.000018 s
+2025-05-13 11:36:50,004 - INFO -   Activation time: 0.000018 s
+2025-05-13 11:36:50,004 - INFO -   Learning time: 0.000045 s
+2025-05-13 11:36:50,004 - INFO -   Learning time: 0.000045 s
+2025-05-13 11:36:50,004 - INFO -   Batch learning time (size 10): 0.0046 s
+2025-05-13 11:36:50,004 - INFO -   Batch learning time (size 10): 0.0046 s
+2025-05-13 11:36:50,004 - INFO -   Network training time (size 10): 0.0503 s
+2025-05-13 11:36:50,004 - INFO -   Network training time (size 10): 0.0503 s
+2025-05-13 11:36:50,004 - INFO -   Batch learning time (size 100): 0.0390 s
+2025-05-13 11:36:50,004 - INFO -   Batch learning time (size 100): 0.0390 s
+2025-05-13 11:36:50,004 - INFO -   Network training time (size 100): 0.4997 s
+2025-05-13 11:36:50,004 - INFO -   Network training time (size 100): 0.4997 s
+2025-05-13 11:36:50,007 - INFO - Testing pattern recognition
+2025-05-13 11:36:50,007 - INFO - Testing pattern recognition
+2025-05-13 11:36:50,007 - ERROR - No training puzzles available
+2025-05-13 11:36:50,007 - ERROR - No training puzzles available
+2025-05-13 11:36:50,007 - INFO - Generating report
+2025-05-13 11:36:50,007 - INFO - Generating report
+2025-05-13 11:36:50,008 - INFO - Report generated: optimization_report.md
+2025-05-13 11:36:50,008 - INFO - Report generated: optimization_report.md

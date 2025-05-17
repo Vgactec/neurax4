@@ -1,0 +1,20 @@
+[
+  {
+    "component": "Apprentissage Complet",
+    "status": "FAIL",
+    "duration": 0.006709575653076172,
+    "details": {
+      "error": "Extra data: line 1 column 4 (char 3)"
+    }
+  },
+  {
+    "component": "Simulateur Quantique",
+    "status": "PASS",
+    "duration": 0.0008909702301025391,
+    "details": {
+      "grid_size": 32,
+      "time_steps": 8,
+      "has_space_time": true
+    }
+  }
+]

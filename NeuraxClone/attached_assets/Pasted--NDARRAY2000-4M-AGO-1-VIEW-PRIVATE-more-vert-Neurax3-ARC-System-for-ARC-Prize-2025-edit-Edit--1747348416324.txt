@@ -1,0 +1,98 @@
+
+NDARRAY2000 · 4M AGO · 1 VIEW · PRIVATE
+more_vert
+Neurax3 ARC System for ARC-Prize-2025
+edit
+
+Edit
+
+0
+Logs
+
+Download Logs
+Version 1 failed to run after 21.5s
+Accelerator
+GPU P100
+Environment
+Latest Container Image
+Output
+0 B
+Time
+#
+Log Message
+4.5s	1	/usr/local/lib/python3.11/dist-packages/nbformat/__init__.py:96: MissingIDFieldWarning: Cell is missing an id field, this will become a hard error in future nbformat versions. You may want to use `normalize()` on your notebooks before validations (available since nbformat 5.1.4). Previous versions of nbformat are fixing this issue transparently, and will stop doing so in the future.
+4.5s	2	  validate(nb)
+5.6s	3	0.00s - Debugger warning: It seems that frozen modules are being used, which may
+5.6s	4	0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+5.6s	5	0.00s - to python to disable frozen modules.
+5.6s	6	0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+6.3s	7	0.00s - Debugger warning: It seems that frozen modules are being used, which may
+6.3s	8	0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+6.3s	9	0.00s - to python to disable frozen modules.
+6.3s	10	0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+10.1s	11	Python version: 3.11.11 (main, Dec  4 2024, 08:55:07) [GCC 11.4.0]
+10.1s	12	Platform: Linux-6.6.56+-x86_64-with-glibc2.35
+10.1s	13	Numpy version: 1.26.4
+10.1s	14	Pandas version: 2.2.3
+10.1s	15	Thu May 15 22:28:22 2025       
+10.1s	16	+-----------------------------------------------------------------------------------------+
+10.1s	17	| NVIDIA-SMI 560.35.03              Driver Version: 560.35.03      CUDA Version: 12.6     |
+10.1s	18	|-----------------------------------------+------------------------+----------------------+
+10.1s	19	| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+10.1s	20	| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+10.1s	21	|                                         |                        |               MIG M. |
+10.1s	22	|=========================================+========================+======================|
+10.1s	23	|   0  Tesla P100-PCIE-16GB           Off |   00000000:00:04.0 Off |                    0 |
+10.1s	24	| N/A   31C    P0             26W /  250W |       0MiB /  16384MiB |      0%      Default |
+10.1s	25	|                                         |                        |                  N/A |
+10.1s	26	+-----------------------------------------+------------------------+----------------------+
+10.1s	27	                                                                                         
+10.1s	28	+-----------------------------------------------------------------------------------------+
+10.1s	29	| Processes:                                                                              |
+10.1s	30	|  GPU   GI   CI        PID   Type   Process name                              GPU Memory |
+10.1s	31	|        ID   ID                                                               Usage      |
+10.1s	32	|=========================================================================================|
+10.1s	33	|  No running processes found                                                             |
+10.1s	34	+-----------------------------------------------------------------------------------------+
+14.1s	35	total 8
+14.1s	36	drwxr-xr-x 3 root   root    4096 May 15 22:28 .
+14.1s	37	drwxr-xr-x 8 root   root    4096 May 15 22:28 ..
+14.1s	38	drwxr-xr-x 2 nobody nogroup    0 Apr 11 21:54 arc-prize-2025
+14.3s	39	total 6764
+14.3s	40	drwxr-xr-x 2 nobody nogroup       0 Apr 11 21:54 .
+14.3s	41	drwxr-xr-x 3 root   root       4096 May 15 22:28 ..
+14.3s	42	-rw-r--r-- 1 nobody nogroup  984679 Apr 11 21:54 arc-agi_evaluation_challenges.json
+14.3s	43	-rw-r--r-- 1 nobody nogroup  223838 Apr 11 21:54 arc-agi_evaluation_solutions.json
+14.3s	44	-rw-r--r-- 1 nobody nogroup 1015295 Apr 11 21:54 arc-agi_test_challenges.json
+14.3s	45	-rw-r--r-- 1 nobody nogroup 4010050 Apr 11 21:54 arc-agi_training_challenges.json
+14.3s	46	-rw-r--r-- 1 nobody nogroup  658743 Apr 11 21:54 arc-agi_training_solutions.json
+14.3s	47	-rw-r--r-- 1 nobody nogroup   19936 Apr 11 21:54 sample_submission.json
+14.4s	48	Aucun fichier de puzzle trouvé.
+14.8s	49	Traceback (most recent call last):
+14.8s	50	  File "<string>", line 1, in <module>
+14.8s	51	  File "/usr/local/lib/python3.11/dist-packages/papermill/execute.py", line 131, in execute_notebook
+14.8s	52	    raise_for_execution_errors(nb, output_path)
+14.8s	53	  File "/usr/local/lib/python3.11/dist-packages/papermill/execute.py", line 251, in raise_for_execution_errors
+14.8s	54	    raise error
+14.8s	55	papermill.exceptions.PapermillExecutionError: 
+14.8s	56	---------------------------------------------------------------------------
+14.8s	57	Exception encountered at "In [2]":
+14.8s	58	---------------------------------------------------------------------------
+14.8s	59	TypeError                                 Traceback (most recent call last)
+14.8s	60	/tmp/ipykernel_19/2849401590.py in <cell line: 0>()
+14.8s	61	     22 
+14.8s	62	     23 # Analyser un exemple de puzzle
+14.8s	63	---> 24 example, path = load_example_puzzle()
+14.8s	64	     25 if example:
+14.8s	65	     26     print(f"Exemple de puzzle trouvé: {path}")
+14.8s	66	
+14.8s	67	TypeError: cannot unpack non-iterable NoneType object
+14.8s	68	
+16.7s	69	/usr/local/lib/python3.11/dist-packages/traitlets/traitlets.py:2915: FutureWarning: --Exporter.preprocessors=["remove_papermill_header.RemovePapermillHeader"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.
+16.7s	70	  warn(
+16.7s	71	[NbConvertApp] Converting notebook __notebook__.ipynb to notebook
+17.0s	72	[NbConvertApp] Writing 31450 bytes to __notebook__.ipynb
+18.3s	73	/usr/local/lib/python3.11/dist-packages/traitlets/traitlets.py:2915: FutureWarning: --Exporter.preprocessors=["nbconvert.preprocessors.ExtractOutputPreprocessor"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.
+18.3s	74	  warn(
+18.3s	75	[NbConvertApp] Converting notebook __notebook__.ipynb to html
+19.1s	76	[NbConvertApp] Writing 347563 bytes to __results__.html

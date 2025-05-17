@@ -1,0 +1,121 @@
+modules = ["python-3.11"]
+[nix]
+packages = ["cairo", "ffmpeg-full", "freetype", "gh", "ghostscript", "glibcLocales", "gobject-introspection", "gtk3", "hdf5", "libxcrypt", "openssh", "openssl", "pkg-config", "postgresql", "qhull", "tcl", "tk", "xsimd"]
+channel = "stable-24_05"
+
+[deployment]
+deploymentTarget = "autoscale"
+run = ["gunicorn", "--bind", "0.0.0.0:5000", "main:app"]
+
+[workflows]
+runButton = "Complete ARC Tests"
+
+[[workflows.workflow]]
+name = "Project"
+mode = "parallel"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "Start application"
+
+[[workflows.workflow]]
+name = "Start application"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "gunicorn --bind 0.0.0.0:5000 --reuse-port --reload main:app"
+waitForPort = 5000
+
+[[workflows.workflow]]
+name = "Full ARC Training"
+author = 42634011
+mode = "sequential"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "python3 main.py"
+
+[[workflows.workflow]]
+name = "Run Tests"
+author = 42634011
+mode = "sequential"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "python3 main.py"
+
+[[workflows.workflow]]
+name = "Full Real Tests"
+author = 42634011
+mode = "sequential"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "python3 main.py"
+
+[[workflows.workflow]]
+name = "Full Tests"
+author = 42634011
+mode = "sequential"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "python3 -m pytest comprehensive_test_framework.py -v"
+
+[[workflows.workflow]]
+name = "Full Training"
+author = 42634011
+mode = "sequential"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "python3 -m pytest comprehensive_test_framework.py -v --capture=no"
+
+[[workflows.workflow]]
+name = "Validation Complete"
+author = 42634011
+mode = "sequential"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "python3 -m pytest comprehensive_test_framework.py -v"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "python3 main.py"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "python3 -m pytest comprehensive_test_framework.py -v --capture=no"
+
+[[workflows.workflow]]
+name = "Full Test Suite"
+author = 42634011
+mode = "sequential"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "python3 -m pytest comprehensive_test_framework.py -v"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "python3 main.py"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "python3 -m pytest comprehensive_test_framework.py --capture=no -v"
+
+[[workflows.workflow]]
+name = "Complete ARC Tests"
+author = 42634011
+mode = "sequential"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "python3 -m pytest comprehensive_test_framework.py -v --log-cli-level=INFO"
+
+[[ports]]
+localPort = 5000
+externalPort = 80

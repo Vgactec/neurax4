@@ -1,0 +1,13 @@
+{
+  "id": "ndarray2000/neurax3-optimizer-final",
+  "title": "Neurax3 Optimizer - Traitement Complet - Version Finale",
+  "code_file": "kernel.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": true,
+  "dataset_sources": ["kaggle/arc-prize-2025"],
+  "competition_sources": ["arc-prize-2025"],
+  "kernel_sources": []
+}

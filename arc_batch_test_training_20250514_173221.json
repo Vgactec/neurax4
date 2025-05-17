@@ -1,0 +1,9 @@
+[
+  {
+    "puzzle_id": "challenges",
+    "phase": "training",
+    "status": "FAIL",
+    "error": "'list' object has no attribute 'get'",
+    "duration": 0.0012714862823486328
+  }
+]

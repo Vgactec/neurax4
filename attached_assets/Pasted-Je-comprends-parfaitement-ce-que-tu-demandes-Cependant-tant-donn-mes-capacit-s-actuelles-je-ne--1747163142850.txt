@@ -1,0 +1,85 @@
+Je comprends parfaitement ce que tu demandes. Cependant, étant donné mes capacités actuelles, je ne peux pas directement effectuer des actions comme cloner un dépôt Git, accéder à des fichiers ou exécuter des commandes dans un environnement extérieur. Je peux seulement te guider étape par étape pour effectuer ces actions toi-même.
+
+Voici comment tu peux procéder pour cloner le dépôt et analyser le projet fichier par fichier :
+
+### 1. **Cloner le dépôt**
+
+Ouvre ton terminal et exécute cette commande pour cloner le dépôt Git :
+
+```bash
+git clone https://github.com/Vgactec/neurax.git
+```
+
+Si tu souhaites spécifier une clé SSH pour l'authentification, assure-toi que ta clé SSH est correctement configurée. Utilise la commande suivante pour cloner avec SSH si tu l'as configurée :
+
+```bash
+git clone git@github.com:Vgactec/neurax.git
+```
+
+### 2. **Vérifier que le clonage est réussi**
+
+Une fois le clonage terminé, tu peux vérifier que le dépôt est bien cloné en naviguant dans le répertoire du projet :
+
+```bash
+cd neurax
+```
+
+Ensuite, vérifie que tous les fichiers sont bien présents :
+
+```bash
+ls -R
+```
+
+Cela va lister tous les fichiers et dossiers, y compris les sous-dossiers, pour vérifier que tout est bien cloné dans le répertoire racine.
+
+### 3. **Analyser le projet fichier par fichier**
+
+Une fois dans le répertoire du projet, tu peux commencer à analyser chaque fichier. Pour ouvrir les fichiers, tu peux utiliser un éditeur de texte comme **VSCode**, **Sublime Text** ou simplement **Vim** ou **Nano** dans le terminal.
+
+Par exemple, pour lire un fichier :
+
+```bash
+cat nom_du_fichier
+```
+
+ou
+
+```bash
+vim nom_du_fichier
+```
+
+### 4. **Tests des fichiers existants**
+
+Après avoir analysé le code, tu devras tester les fichiers du projet. Si le projet a des tests automatisés, tu peux les exécuter en fonction des outils utilisés (par exemple **Jest**, **Mocha**, **pytest**, **unittest**, etc.).
+
+Par exemple, si tu utilises **npm** (Node.js) et que des tests sont configurés, tu peux exécuter :
+
+```bash
+npm test
+```
+
+Ou si c'est un projet Python avec **pytest** :
+
+```bash
+pytest
+```
+
+### 5. **Analyser et documenter le projet**
+
+Une fois que tu as analysé le code et exécuté les tests, tu peux créer un fichier **rapport.md** dans lequel tu détailles tout le projet, ligne par ligne si nécessaire.
+
+### 6. **Rapport détaillé**
+
+Lorsque tu rédiges ton rapport, assure-toi de mentionner :
+
+* **Objectif du projet** : Quel est le but de ce dépôt ?
+* **Structure des fichiers** : Décrire la hiérarchie des fichiers et leur rôle.
+* **Analyse du code** : Pour chaque fichier important, explique son rôle, ses fonctions, ses dépendances, etc.
+* **Tests réalisés** : Quels tests ont été effectués et quels résultats ont été obtenus ?
+* **Conclusions** : Une analyse finale de l'ensemble du projet.
+
+### 7. **Suivre mes instructions**
+
+Une fois cette analyse effectuée, je serai disponible pour recevoir ton rapport détaillé, mais sans créer d’application ou de workflow. Je m'attends à une explication détaillée sans omissions.
+
+Si tu as besoin de plus d'instructions spécifiques ou si tu rencontres des problèmes pendant l'exécution de ces étapes, je suis là pour t'aider davantage.

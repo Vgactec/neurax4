@@ -1,0 +1,4 @@
+puzzle_id,phase,status,duration,grid_size
+00576224,training,PASS,0.06560897827148438,32
+007bbfb7,training,PASS,0.067352294921875,32
+009d5c81,training,PASS,0.06425833702087402,32

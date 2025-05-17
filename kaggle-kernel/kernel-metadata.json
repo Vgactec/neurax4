@@ -1,0 +1,14 @@
+
+{
+  "id": "ndarray2000/neurax3-arc-system-for-arc-prize-2025",
+  "title": "Neurax3 ARC System for ARC Prize 2025",
+  "code_file": "neurax3_arc_system.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_internet": true,
+  "dataset_sources": [],
+  "competition_sources": ["abstraction-and-reasoning-challenge"],
+  "kernel_sources": []
+}

@@ -1,0 +1,14 @@
+{
+  "challenges": [
+    {
+      "id": 1,
+      "title": "Challenge 1",
+      "description": "Description 1"
+    },
+    {
+      "id": 2,
+      "title": "Challenge 2",
+      "description": "Description 2"
+    }
+  ]
+}

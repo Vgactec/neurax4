@@ -1,0 +1,247 @@
+{
+  "configurations": [
+    {
+      "grid_size": 8,
+      "actual_grid_size": 8,
+      "time_steps": 4,
+      "precision": "float32",
+      "memory_limit": 100
+    },
+    {
+      "grid_size": 8,
+      "actual_grid_size": 8,
+      "time_steps": 4,
+      "precision": "float16",
+      "memory_limit": 100
+    },
+    {
+      "grid_size": 8,
+      "actual_grid_size": 8,
+      "time_steps": 4,
+      "precision": "int8",
+      "memory_limit": 100
+    },
+    {
+      "grid_size": 16,
+      "actual_grid_size": 16,
+      "time_steps": 4,
+      "precision": "float32",
+      "memory_limit": 100
+    },
+    {
+      "grid_size": 16,
+      "actual_grid_size": 16,
+      "time_steps": 4,
+      "precision": "float16",
+      "memory_limit": 100
+    },
+    {
+      "grid_size": 16,
+      "actual_grid_size": 16,
+      "time_steps": 4,
+      "precision": "int8",
+      "memory_limit": 100
+    },
+    {
+      "grid_size": 32,
+      "actual_grid_size": 32,
+      "time_steps": 4,
+      "precision": "float32",
+      "memory_limit": 100
+    },
+    {
+      "grid_size": 32,
+      "actual_grid_size": 32,
+      "time_steps": 4,
+      "precision": "float16",
+      "memory_limit": 100
+    },
+    {
+      "grid_size": 32,
+      "actual_grid_size": 32,
+      "time_steps": 4,
+      "precision": "int8",
+      "memory_limit": 100
+    }
+  ],
+  "performance": [
+    {
+      "avg_duration": 0.010300874710083008,
+      "min_duration": 0.0007750988006591797,
+      "max_duration": 0.019826650619506836,
+      "durations": [
+        0.019826650619506836,
+        0.0007750988006591797
+      ]
+    },
+    {
+      "avg_duration": 0.0005962848663330078,
+      "min_duration": 0.00058746337890625,
+      "max_duration": 0.0006051063537597656,
+      "durations": [
+        0.0006051063537597656,
+        0.00058746337890625
+      ]
+    },
+    {
+      "avg_duration": 0.0006028413772583008,
+      "min_duration": 0.0005955696105957031,
+      "max_duration": 0.0006101131439208984,
+      "durations": [
+        0.0005955696105957031,
+        0.0006101131439208984
+      ]
+    },
+    {
+      "avg_duration": 0.00205230712890625,
+      "min_duration": 0.0006394386291503906,
+      "max_duration": 0.0034651756286621094,
+      "durations": [
+        0.0034651756286621094,
+        0.0006394386291503906
+      ]
+    },
+    {
+      "avg_duration": 0.0005738735198974609,
+      "min_duration": 0.0005514621734619141,
+      "max_duration": 0.0005962848663330078,
+      "durations": [
+        0.0005962848663330078,
+        0.0005514621734619141
+      ]
+    },
+    {
+      "avg_duration": 0.0006873607635498047,
+      "min_duration": 0.0005736351013183594,
+      "max_duration": 0.00080108642578125,
+      "durations": [
+        0.0005736351013183594,
+        0.00080108642578125
+      ]
+    },
+    {
+      "avg_duration": 0.002085089683532715,
+      "min_duration": 0.00048732757568359375,
+      "max_duration": 0.003682851791381836,
+      "durations": [
+        0.003682851791381836,
+        0.00048732757568359375
+      ]
+    },
+    {
+      "avg_duration": 0.0011924505233764648,
+      "min_duration": 0.0011608600616455078,
+      "max_duration": 0.0012240409851074219,
+      "durations": [
+        0.0011608600616455078,
+        0.0012240409851074219
+      ]
+    },
+    {
+      "avg_duration": 0.0024261474609375,
+      "min_duration": 0.0005433559417724609,
+      "max_duration": 0.004308938980102539,
+      "durations": [
+        0.004308938980102539,
+        0.0005433559417724609
+      ]
+    }
+  ],
+  "memory": [
+    {
+      "avg_usage": 0.0020904541015625,
+      "min_usage": 0.0020904541015625,
+      "max_usage": 0.0020904541015625,
+      "usages": [
+        0.0020904541015625,
+        0.0020904541015625
+      ]
+    },
+    {
+      "avg_usage": 0.0011138916015625,
+      "min_usage": 0.0011138916015625,
+      "max_usage": 0.0011138916015625,
+      "usages": [
+        0.0011138916015625,
+        0.0011138916015625
+      ]
+    },
+    {
+      "avg_usage": 0.0023345947265625,
+      "min_usage": 0.0023345947265625,
+      "max_usage": 0.0023345947265625,
+      "usages": [
+        0.0023345947265625,
+        0.0023345947265625
+      ]
+    },
+    {
+      "avg_usage": 0.0079498291015625,
+      "min_usage": 0.0079498291015625,
+      "max_usage": 0.0079498291015625,
+      "usages": [
+        0.0079498291015625,
+        0.0079498291015625
+      ]
+    },
+    {
+      "avg_usage": 0.0040435791015625,
+      "min_usage": 0.0040435791015625,
+      "max_usage": 0.0040435791015625,
+      "usages": [
+        0.0040435791015625,
+        0.0040435791015625
+      ]
+    },
+    {
+      "avg_usage": 0.0089263916015625,
+      "min_usage": 0.0089263916015625,
+      "max_usage": 0.0089263916015625,
+      "usages": [
+        0.0089263916015625,
+        0.0089263916015625
+      ]
+    },
+    {
+      "avg_usage": 0.0313873291015625,
+      "min_usage": 0.0313873291015625,
+      "max_usage": 0.0313873291015625,
+      "usages": [
+        0.0313873291015625,
+        0.0313873291015625
+      ]
+    },
+    {
+      "avg_usage": 0.0157623291015625,
+      "min_usage": 0.0157623291015625,
+      "max_usage": 0.0157623291015625,
+      "usages": [
+        0.0157623291015625,
+        0.0157623291015625
+      ]
+    },
+    {
+      "avg_usage": 0.0352935791015625,
+      "min_usage": 0.0352935791015625,
+      "max_usage": 0.0352935791015625,
+      "usages": [
+        0.0352935791015625,
+        0.0352935791015625
+      ]
+    }
+  ],
+  "grid_sizes": [
+    8,
+    16,
+    32
+  ],
+  "time_steps": 4,
+  "precisions": [
+    "float32",
+    "float16",
+    "int8"
+  ],
+  "memory_limits": [
+    100
+  ]
+}

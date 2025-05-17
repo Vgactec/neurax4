@@ -1,0 +1,33 @@
+modules = ["python-3.11"]
+
+[nix]
+channel = "stable-24_05"
+packages = ["cairo", "ffmpeg-full", "freetype", "ghostscript", "glibcLocales", "gobject-introspection", "gtk3", "hdf5", "libxcrypt", "openssh", "pkg-config", "qhull", "tcl", "tk", "unzip", "xsimd"]
+
+[deployments]
+build = ["sh", "-c", "python -m pip install -r requirements.txt"]
+run = ["sh", "-c", "python app.py"]
+
+[workflow]
+defaultTool = "run"
+
+[workflows]
+runButton = "Run Tests"
+
+[[workflows.workflow]]
+name = "Run Tests"
+author = 42608764
+mode = "sequential"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "python neurax_complet/test_arc_optimization.py"
+
+[[workflows.workflow]]
+name = "Run ARC Tests"
+author = 42608764
+mode = "sequential"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "python neurax_complet/test_arc_optimization.py"

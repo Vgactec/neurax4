@@ -1,0 +1,90 @@
+2025-05-13 19:51:18,164 - NeuraxTest - INFO - Simulateur de gravité quantique importé depuis le module core
+2025-05-13 19:51:18,344 - NeuraxTest - WARNING - Module de visualisation non disponible
+2025-05-13 19:51:18,360 - main - INFO - Point d'entree main.py appele
+2025-05-13 19:51:18,373 - NeuraxTest - ERROR - Erreur lors du chargement des données ARC: Extra data: line 1 column 4 (char 3)
+Traceback (most recent call last):
+  File "/home/runner/workspace/neurax_complet/neurax_complet/comprehensive_test_framework.py", line 131, in load_arc_data
+    training_data = json.load(f)
+                    ^^^^^^^^^^^^
+  File "/nix/store/clx0mcir7qw8zk36zbr4jra789g3knf6-python3-3.11.10/lib/python3.11/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+           ^^^^^^^^^^^^^^^^
+  File "/nix/store/clx0mcir7qw8zk36zbr4jra789g3knf6-python3-3.11.10/lib/python3.11/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nix/store/clx0mcir7qw8zk36zbr4jra789g3knf6-python3-3.11.10/lib/python3.11/json/decoder.py", line 340, in decode
+    raise JSONDecodeError("Extra data", s, end)
+json.decoder.JSONDecodeError: Extra data: line 1 column 4 (char 3)
+2025-05-13 19:51:18,375 - main - INFO - Démarrage de l'apprentissage sur les 1000 puzzles d'entraînement
+2025-05-13 19:51:18,376 - NeuraxTest - INFO - Démarrage des tests complets pour le projet Neurax
+2025-05-13 19:51:18,376 - NeuraxTest - INFO - Test du simulateur de gravité quantique
+2025-05-13 19:51:18,376 - NeuraxTest - INFO - Test complet du simulateur de gravité quantique
+2025-05-13 19:51:18,376 - core.quantum_sim.simulator - INFO - Simulator initialized with grid size 20³ and 4 time steps
+2025-05-13 19:51:18,379 - core.quantum_sim.simulator - INFO - Simulator initialized with grid size 20³ and 4 time steps
+2025-05-13 19:51:18,393 - core.quantum_sim.simulator - INFO - Simulator initialized with grid size 20³ and 8 time steps
+2025-05-13 19:51:18,397 - core.quantum_sim.simulator - INFO - Simulator initialized with grid size 20³ and 8 time steps
+2025-05-13 19:51:18,411 - core.quantum_sim.simulator - INFO - Simulator initialized with grid size 20³ and 16 time steps
+2025-05-13 19:51:18,479 - core.quantum_sim.simulator - INFO - Simulator initialized with grid size 20³ and 16 time steps
+2025-05-13 19:51:18,492 - core.quantum_sim.simulator - INFO - Simulator initialized with grid size 32³ and 4 time steps
+2025-05-13 19:51:18,503 - core.quantum_sim.simulator - INFO - Simulator initialized with grid size 32³ and 4 time steps
+2025-05-13 19:51:18,598 - core.quantum_sim.simulator - INFO - Simulator initialized with grid size 32³ and 8 time steps
+2025-05-13 19:51:18,618 - core.quantum_sim.simulator - INFO - Simulator initialized with grid size 32³ and 8 time steps
+2025-05-13 19:51:18,699 - core.quantum_sim.simulator - INFO - Simulator initialized with grid size 32³ and 16 time steps
+2025-05-13 19:51:18,726 - core.quantum_sim.simulator - INFO - Simulator initialized with grid size 32³ and 16 time steps
+2025-05-13 19:51:18,801 - core.quantum_sim.simulator - INFO - Simulator initialized with grid size 50³ and 4 time steps
+2025-05-13 19:51:18,829 - core.quantum_sim.simulator - INFO - Simulator initialized with grid size 50³ and 4 time steps
+2025-05-13 19:51:18,995 - core.quantum_sim.simulator - INFO - Simulator initialized with grid size 50³ and 8 time steps
+2025-05-13 19:51:19,046 - core.quantum_sim.simulator - INFO - Simulator initialized with grid size 50³ and 8 time steps
+2025-05-13 19:51:19,210 - core.quantum_sim.simulator - INFO - Simulator initialized with grid size 50³ and 16 time steps
+2025-05-13 19:51:19,323 - core.quantum_sim.simulator - INFO - Simulator initialized with grid size 50³ and 16 time steps
+2025-05-13 19:51:19,493 - NeuraxTest - INFO - Test du système neuronal
+2025-05-13 19:51:19,494 - NeuraxTest - INFO - Test du module de neurone quantique
+2025-05-13 19:51:19,494 - core.neuron.quantum_neuron - INFO - Neurone quantique 8b440217 initialisé: dim=1, qfactor=0.5
+2025-05-13 19:51:19,525 - NeuraxTest - INFO - Test du réseau P2P
+2025-05-13 19:51:19,525 - NeuraxTest - INFO - Test du module réseau P2P
+2025-05-13 19:51:19,525 - core.p2p.network - INFO - P2P Network initialized with node ID: 244c8a1e924a0b8c
+2025-05-13 19:51:19,526 - core.p2p.network - INFO - Listening on port 8000
+2025-05-13 19:51:19,526 - NeuraxTest - INFO - Test du mécanisme de consensus
+2025-05-13 19:51:19,526 - NeuraxTest - INFO - Test du mécanisme de consensus
+2025-05-13 19:51:19,526 - core.consensus.proof_of_cognition - INFO - Processing validation request for SOLUTION test_item_001 from test_node
+2025-05-13 19:51:19,526 - core.consensus.proof_of_cognition - WARNING - No reputation provider available, using random selection
+2025-05-13 19:51:19,526 - NeuraxTest - INFO - Test du module de visualisation
+2025-05-13 19:51:19,526 - NeuraxTest - WARNING - Module de visualisation non disponible, tests ignorés
+2025-05-13 19:51:19,526 - NeuraxTest - INFO - Test du gestionnaire d'export
+2025-05-13 19:51:19,526 - NeuraxTest - INFO - Test du gestionnaire d'export
+2025-05-13 19:51:19,527 - core.quantum_sim.simulator - INFO - Simulator initialized with grid size 32³ and 8 time steps
+2025-05-13 19:51:19,576 - root - INFO - Exported data to HDF5: quantum_gravity_data_20250513_195119.h5
+2025-05-13 19:51:19,582 - NeuraxTest - INFO - Test du gestionnaire de base de données
+2025-05-13 19:51:19,582 - NeuraxTest - INFO - Test du gestionnaire de base de données
+2025-05-13 19:51:19,583 - core.quantum_sim.simulator - INFO - Simulator initialized with grid size 32³ and 8 time steps
+2025-05-13 19:51:19,585 - root - ERROR - Database connection failed: connection to server on socket "/var/run/postgresql/.s.PGSQL.5432" failed: No such file or directory
+    Is the server running locally and accepting connections on that socket?
+
+2025-05-13 19:51:19,917 - root - INFO - Loaded fallback data from local_database_fallback.json
+2025-05-13 19:51:19,917 - root - WARNING - Using local JSON fallback for database operations
+2025-05-13 19:51:19,917 - root - INFO - Using fallback database - no tables to create
+2025-05-13 19:51:24,102 - root - INFO - Saved fallback data to local_database_fallback.json
+2025-05-13 19:51:24,102 - root - INFO - Simulation data saved to fallback with ID: 4
+2025-05-13 19:51:27,477 - root - INFO - Saved fallback data to local_database_fallback.json
+2025-05-13 19:51:27,477 - root - INFO - Fallback database saved
+2025-05-13 19:51:27,494 - NeuraxTest - INFO - Tests de performance
+2025-05-13 19:51:27,497 - NeuraxTest - INFO - Exécution des tests de performance
+2025-05-13 19:51:27,501 - core.quantum_sim.simulator - INFO - Simulator initialized with grid size 20³ and 8 time steps
+2025-05-13 19:51:27,501 - core.quantum_sim.simulator - INFO - Simulator initialized with grid size 32³ and 8 time steps
+2025-05-13 19:51:27,504 - core.quantum_sim.simulator - INFO - Simulator initialized with grid size 50³ and 8 time steps
+2025-05-13 19:51:27,504 - core.quantum_sim.simulator - INFO - Simulator initialized with grid size 64³ and 8 time steps
+2025-05-13 19:51:27,504 - core.quantum_sim.simulator - INFO - Simulator initialized with grid size 20³ and 8 time steps
+2025-05-13 19:51:27,505 - core.quantum_sim.simulator - INFO - Simulator initialized with grid size 32³ and 8 time steps
+2025-05-13 19:51:27,510 - core.quantum_sim.simulator - INFO - Simulator initialized with grid size 50³ and 8 time steps
+2025-05-13 19:51:27,521 - core.quantum_sim.simulator - INFO - Simulator initialized with grid size 64³ and 8 time steps
+2025-05-13 19:51:27,574 - core.quantum_sim.simulator - INFO - Simulator initialized with grid size 20³ and 8 time steps
+2025-05-13 19:51:27,579 - core.quantum_sim.simulator - INFO - Simulator initialized with grid size 32³ and 8 time steps
+2025-05-13 19:51:27,597 - core.quantum_sim.simulator - INFO - Simulator initialized with grid size 50³ and 8 time steps
+2025-05-13 19:51:27,699 - core.quantum_sim.simulator - INFO - Simulator initialized with grid size 64³ and 8 time steps
+2025-05-13 19:51:27,810 - core.quantum_sim.simulator - INFO - Simulator initialized with grid size 20³ and 8 time steps
+2025-05-13 19:51:27,811 - core.quantum_sim.simulator - INFO - Simulator initialized with grid size 32³ and 8 time steps
+2025-05-13 19:51:27,814 - core.quantum_sim.simulator - INFO - Simulator initialized with grid size 50³ and 8 time steps
+2025-05-13 19:51:27,821 - core.quantum_sim.simulator - INFO - Simulator initialized with grid size 64³ and 8 time steps
+2025-05-13 19:51:27,834 - NeuraxTest - INFO - Test des puzzles ARC
+2025-05-13 19:51:27,835 - NeuraxTest - WARNING - Données ARC non disponibles, tests ignorés
+2025-05-13 19:51:27,835 - NeuraxTest - INFO - Tests terminés. Taux de réussite: 93.33%

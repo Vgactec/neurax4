@@ -1,0 +1,48 @@
+{
+    "node_id": null,
+    "log_level": "INFO",
+    
+    "quantum": {
+        "grid_size": 64,
+        "time_steps": 8,
+        "default_intensity": 1e-6
+    },
+    
+    "neuron": {
+        "p_0": 0.5,
+        "beta_1": 0.3,
+        "beta_2": 0.3,
+        "beta_3": 0.2,
+        "activation_threshold": 0.7
+    },
+    
+    "network": {
+        "local_port": 5000,
+        "bootstrap_nodes": [],
+        "max_connections": 50,
+        "min_connections": 5,
+        "connection_timeout": 30,
+        "ping_interval": 60
+    },
+    
+    "consensus": {
+        "min_validations": 3,
+        "validation_timeout": 300,
+        "confidence_threshold": 0.7
+    },
+    
+    "ui": {
+        "theme": "dark",
+        "visualization": {
+            "update_interval": 500,
+            "max_datapoints": 1000
+        }
+    },
+    
+    "storage": {
+        "data_dir": "data",
+        "max_log_size_mb": 100,
+        "max_logs": 10,
+        "autosave_interval": 300
+    }
+}

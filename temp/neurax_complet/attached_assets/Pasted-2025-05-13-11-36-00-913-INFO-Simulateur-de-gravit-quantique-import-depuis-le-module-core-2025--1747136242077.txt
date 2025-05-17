@@ -1,0 +1,83 @@
+2025-05-13 11:36:00,913 - INFO - Simulateur de gravité quantique importé depuis le module core
+2025-05-13 11:36:01,217 - INFO - OptimizationTester initialized with data path: ../arc_data
+2025-05-13 11:36:01,217 - INFO - OptimizationTester initialized with data path: ../arc_data
+2025-05-13 11:36:01,217 - INFO - Found 1000 training puzzles and 120 evaluation puzzles
+2025-05-13 11:36:01,217 - INFO - Found 1000 training puzzles and 120 evaluation puzzles
+2025-05-13 11:36:01,217 - INFO - Starting all optimization tests
+2025-05-13 11:36:01,217 - INFO - Starting all optimization tests
+2025-05-13 11:36:01,217 - INFO - Testing simulator optimizations
+2025-05-13 11:36:01,217 - INFO - Testing simulator optimizations
+2025-05-13 11:36:01,217 - INFO - Testing simulator with grid size 20³
+2025-05-13 11:36:01,217 - INFO - Testing simulator with grid size 20³
+2025-05-13 11:36:01,217 - INFO - Initialized simulator with grid size 20³ and 10 time steps
+2025-05-13 11:36:01,217 - INFO - Initialized simulator with grid size 20³ and 10 time steps
+2025-05-13 11:36:01,218 - INFO - Planck Length: 1.6162550244237053e-35
+2025-05-13 11:36:01,218 - INFO - Planck Length: 1.6162550244237053e-35
+2025-05-13 11:36:01,218 - INFO - Initial space-time grid shape: (10, 20, 20, 20)
+2025-05-13 11:36:01,218 - INFO - Initial space-time grid shape: (10, 20, 20, 20)
+2025-05-13 11:36:01,251 - INFO - Grid size 20³ results:
+2025-05-13 11:36:01,251 - INFO - Grid size 20³ results:
+2025-05-13 11:36:01,251 - INFO -   Initialization: 0.0006 s
+2025-05-13 11:36:01,251 - INFO -   Initialization: 0.0006 s
+2025-05-13 11:36:01,252 - INFO -   Fluctuations: 0.0036 s
+2025-05-13 11:36:01,252 - INFO -   Fluctuations: 0.0036 s
+2025-05-13 11:36:01,252 - INFO -   Curvature: 0.0017 s
+2025-05-13 11:36:01,252 - INFO -   Curvature: 0.0017 s
+2025-05-13 11:36:01,252 - INFO -   Simulation step: 0.0058 s
+2025-05-13 11:36:01,252 - INFO -   Simulation step: 0.0058 s
+2025-05-13 11:36:01,252 - INFO -   Memory usage: 0.61 MB
+2025-05-13 11:36:01,252 - INFO -   Memory usage: 0.61 MB
+2025-05-13 11:36:01,253 - INFO - Testing simulator with grid size 32³
+2025-05-13 11:36:01,253 - INFO - Testing simulator with grid size 32³
+2025-05-13 11:36:01,253 - INFO - Initialized simulator with grid size 32³ and 10 time steps
+2025-05-13 11:36:01,253 - INFO - Initialized simulator with grid size 32³ and 10 time steps
+2025-05-13 11:36:01,253 - INFO - Planck Length: 1.6162550244237053e-35
+2025-05-13 11:36:01,253 - INFO - Planck Length: 1.6162550244237053e-35
+2025-05-13 11:36:01,253 - INFO - Initial space-time grid shape: (10, 32, 32, 32)
+2025-05-13 11:36:01,253 - INFO - Initial space-time grid shape: (10, 32, 32, 32)
+2025-05-13 11:36:01,390 - INFO - Grid size 32³ results:
+2025-05-13 11:36:01,390 - INFO - Grid size 32³ results:
+2025-05-13 11:36:01,390 - INFO -   Initialization: 0.0007 s
+2025-05-13 11:36:01,390 - INFO -   Initialization: 0.0007 s
+2025-05-13 11:36:01,390 - INFO -   Fluctuations: 0.0220 s
+2025-05-13 11:36:01,390 - INFO -   Fluctuations: 0.0220 s
+2025-05-13 11:36:01,390 - INFO -   Curvature: 0.0039 s
+2025-05-13 11:36:01,390 - INFO -   Curvature: 0.0039 s
+2025-05-13 11:36:01,391 - INFO -   Simulation step: 0.0195 s
+2025-05-13 11:36:01,391 - INFO -   Simulation step: 0.0195 s
+2025-05-13 11:36:01,391 - INFO -   Memory usage: 2.50 MB
+2025-05-13 11:36:01,391 - INFO -   Memory usage: 2.50 MB
+2025-05-13 11:36:01,391 - INFO - Testing simulator with grid size 50³
+2025-05-13 11:36:01,391 - INFO - Testing simulator with grid size 50³
+2025-05-13 11:36:01,391 - INFO - Initialized simulator with grid size 50³ and 10 time steps
+2025-05-13 11:36:01,391 - INFO - Initialized simulator with grid size 50³ and 10 time steps
+2025-05-13 11:36:01,391 - INFO - Planck Length: 1.6162550244237053e-35
+2025-05-13 11:36:01,391 - INFO - Planck Length: 1.6162550244237053e-35
+2025-05-13 11:36:01,391 - INFO - Initial space-time grid shape: (10, 50, 50, 50)
+2025-05-13 11:36:01,391 - INFO - Initial space-time grid shape: (10, 50, 50, 50)
+2025-05-13 11:36:01,887 - INFO - Grid size 50³ results:
+2025-05-13 11:36:01,887 - INFO - Grid size 50³ results:
+2025-05-13 11:36:01,888 - INFO -   Initialization: 0.0014 s
+2025-05-13 11:36:01,888 - INFO -   Initialization: 0.0014 s
+2025-05-13 11:36:01,888 - INFO -   Fluctuations: 0.0758 s
+2025-05-13 11:36:01,888 - INFO -   Fluctuations: 0.0758 s
+2025-05-13 11:36:01,888 - INFO -   Curvature: 0.0137 s
+2025-05-13 11:36:01,888 - INFO -   Curvature: 0.0137 s
+2025-05-13 11:36:01,888 - INFO -   Simulation step: 0.0755 s
+2025-05-13 11:36:01,888 - INFO -   Simulation step: 0.0755 s
+2025-05-13 11:36:01,888 - INFO -   Memory usage: 9.54 MB
+2025-05-13 11:36:01,888 - INFO -   Memory usage: 9.54 MB
+2025-05-13 11:36:01,889 - INFO - Testing adapter performance
+2025-05-13 11:36:01,889 - INFO - Testing adapter performance
+Traceback (most recent call last):
+  File "/home/runner/workspace/neurax_complet/test_arc_optimization.py", line 612, in <module>
+    tester.run_all_tests(output_file="optimization_report.md")
+  File "/home/runner/workspace/neurax_complet/test_arc_optimization.py", line 592, in run_all_tests
+    self.test_adapter_performance()
+  File "/home/runner/workspace/neurax_complet/test_arc_optimization.py", line 189, in test_adapter_performance
+    [p["id"] for p in self.arc_data["training"]], 
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/neurax_complet/test_arc_optimization.py", line 189, in <listcomp>
+    [p["id"] for p in self.arc_data["training"]], 
+     ~^^^^^^
+TypeError: string indices must be integers, not 'str'

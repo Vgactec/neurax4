@@ -1,0 +1,117 @@
+[
+  {
+    "puzzle_id": "00576224",
+    "phase": "test",
+    "status": "PASS",
+    "grid_size": 32,
+    "simulator_details": {
+      "processing_time": 0.0009009838104248047,
+      "grid_size": 32,
+      "time_steps": 8,
+      "gpu_used": false,
+      "performance": {
+        "cache_hits": 18,
+        "cache_misses": 8,
+        "execution_times": [
+          [
+            "simulate_step",
+            0.00012111663818359375
+          ]
+        ]
+      }
+    },
+    "duration": 0.04537510871887207
+  },
+  {
+    "puzzle_id": "007bbfb7",
+    "phase": "test",
+    "status": "PASS",
+    "grid_size": 32,
+    "simulator_details": {
+      "processing_time": 0.0011150836944580078,
+      "grid_size": 32,
+      "time_steps": 8,
+      "gpu_used": false,
+      "performance": {
+        "cache_hits": 19,
+        "cache_misses": 8,
+        "execution_times": [
+          [
+            "simulate_step",
+            0.00016021728515625
+          ]
+        ]
+      }
+    },
+    "duration": 0.05069923400878906
+  },
+  {
+    "puzzle_id": "009d5c81",
+    "phase": "test",
+    "status": "PASS",
+    "grid_size": 32,
+    "simulator_details": {
+      "processing_time": 0.006505250930786133,
+      "grid_size": 32,
+      "time_steps": 8,
+      "gpu_used": false,
+      "performance": {
+        "cache_hits": 20,
+        "cache_misses": 8,
+        "execution_times": [
+          [
+            "simulate_step",
+            0.000225067138671875
+          ]
+        ]
+      }
+    },
+    "duration": 0.038842201232910156
+  },
+  {
+    "puzzle_id": "00d62c1b",
+    "phase": "test",
+    "status": "PASS",
+    "grid_size": 32,
+    "simulator_details": {
+      "processing_time": 0.0016963481903076172,
+      "grid_size": 32,
+      "time_steps": 8,
+      "gpu_used": false,
+      "performance": {
+        "cache_hits": 21,
+        "cache_misses": 8,
+        "execution_times": [
+          [
+            "simulate_step",
+            0.00011754035949707031
+          ]
+        ]
+      }
+    },
+    "duration": 0.03481316566467285
+  },
+  {
+    "puzzle_id": "00dbd492",
+    "phase": "test",
+    "status": "PASS",
+    "grid_size": 32,
+    "simulator_details": {
+      "processing_time": 0.004999876022338867,
+      "grid_size": 32,
+      "time_steps": 8,
+      "gpu_used": false,
+      "performance": {
+        "cache_hits": 22,
+        "cache_misses": 8,
+        "execution_times": [
+          [
+            "simulate_step",
+            0.00013399124145507812
+          ]
+        ]
+      }
+    },
+    "duration": 0.03802990913391113
+  }
+]

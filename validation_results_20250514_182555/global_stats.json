@@ -1,0 +1,34 @@
+{
+  "start_time": 1747247155.7155702,
+  "phases": {
+    "training": {
+      "total": 20,
+      "success": 20,
+      "success_rate": 100.0,
+      "start_time": 1747247155.716352,
+      "end_time": 1747247158.8530488,
+      "duration": 3.1366968154907227
+    },
+    "evaluation": {
+      "total": 5,
+      "success": 5,
+      "success_rate": 100.0,
+      "start_time": 1747247158.861317,
+      "end_time": 1747247159.075417,
+      "duration": 0.21410012245178223
+    },
+    "test": {
+      "total": 5,
+      "success": 5,
+      "success_rate": 100.0,
+      "start_time": 1747247159.086498,
+      "end_time": 1747247159.3798256,
+      "duration": 0.29332756996154785
+    }
+  },
+  "total_puzzles": 30,
+  "total_success": 30,
+  "overall_success_rate": 100.0,
+  "total_duration": 3.6714651584625244,
+  "end_time": 1747247159.3870354
+}

@@ -1,0 +1,89 @@
+import numpy as np
+from scipy.constants import hbar, c, G
+import logging
+import json
+import csv
+
+# Setup logging
+logging.basicConfig(filename='quantum_gravity_simulation_v2.log', level=logging.DEBUG, format='%(asctime)s - %(message)s')
+
+# Define fundamental constants
+PLANCK_LENGTH = np.sqrt(hbar * G / c**3)  # Smallest theoretical unit of space
+logging.debug(f'Planck Length: {PLANCK_LENGTH}')
+
+# Define a 3D grid representing space-time
+size = 150  # Optimized grid size for performance
+space_time = np.zeros((size, size, size))
+logging.debug(f'Initial 3D space-time grid created with size {size}x{size}x{size}')
+
+# Simulate quantum fluctuations in vacuum using refined perturbations
+def quantum_fluctuations(grid, intensity=5e-4):
+    noise = np.random.normal(0, intensity, grid.shape)
+    logging.debug(f'Quantum fluctuations applied with intensity {intensity}')
+    return grid + noise
+
+# Simulate gravitational curvature based on local energy-momentum fluctuations
+def curvature(grid):
+    laplacian = (
+        np.roll(grid, 1, axis=0) + np.roll(grid, -1, axis=0) +
+        np.roll(grid, 1, axis=1) + np.roll(grid, -1, axis=1) +
+        np.roll(grid, 1, axis=2) + np.roll(grid, -1, axis=2) - 6 * grid
+    )
+    logging.debug('Curvature calculated using Laplacian operator in 3D')
+    return laplacian * PLANCK_LENGTH
+
+# Iterate simulation for quantum gravity evolution with optimized steps
+iterations = 300  # Optimized iterations for performance vs accuracy balance
+for step in range(iterations):
+    space_time = quantum_fluctuations(space_time)
+    space_time += curvature(space_time)
+    logging.debug(f'Step {step+1}/{iterations}: 3D Space-time grid updated')
+
+# Save data as CSV
+csv_filename = "quantum_gravity_data_v2.csv"
+with open(csv_filename, "w", newline="") as csvfile:
+    writer = csv.writer(csvfile)
+    for i in range(size):
+        for j in range(size):
+            for k in range(size):
+                writer.writerow([i, j, k, space_time[i, j, k]])
+logging.debug(f'Data saved to {csv_filename}')
+
+# Save data as JSON
+json_filename = "quantum_gravity_data_v2.json"
+data_dict = {"space_time": space_time.tolist()}
+with open(json_filename, "w") as jsonfile:
+    json.dump(data_dict, jsonfile)
+logging.debug(f'Data saved to {json_filename}')
+
+# Generate and save 3D OBJ file
+obj_filename = "quantum_gravity_model_v2.obj"
+with open(obj_filename, "w") as objfile:
+    x, y, z = np.where(space_time > np.percentile(space_time, 99))
+    for i in range(len(x)):
+        objfile.write(f'v {x[i]} {y[i]} {z[i]}
+')
+logging.debug(f'3D OBJ model saved to {obj_filename}')
+
+# Additional analysis and logging of results
+mean_curvature = np.mean(space_time)
+max_curvature = np.max(space_time)
+min_curvature = np.min(space_time)
+logging.debug(f'Mean curvature value: {mean_curvature}')
+logging.debug(f'Max curvature value: {max_curvature}')
+logging.debug(f'Min curvature value: {min_curvature}')
+
+analysis_results = {
+    "Mean Curvature": mean_curvature,
+    "Max Curvature": max_curvature,
+    "Min Curvature": min_curvature,
+    "Total Data Points": size**3
+}
+
+analysis_filename = "quantum_gravity_analysis.json"
+with open(analysis_filename, "w") as analysisfile:
+    json.dump(analysis_results, analysisfile)
+logging.debug(f'Analysis results saved to {analysis_filename}')
+
+# Visualization skipped due to missing matplotlib in the environment
+logging.debug('Visualization step skipped due to environment constraints')

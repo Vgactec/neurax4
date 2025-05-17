@@ -1,0 +1,76 @@
+{
+  "phase": "training",
+  "total_puzzles": 1,
+  "valid_results": 1,
+  "average_epochs": 10.0,
+  "min_epochs": 10,
+  "max_epochs": 10,
+  "average_final_loss": 0.527310743333742,
+  "min_loss": 0.527310743333742,
+  "max_loss": 0.527310743333742,
+  "average_time": 0.004429340362548828,
+  "total_time": 0.004429340362548828,
+  "converged_count": 0,
+  "converged_rate": 0.0,
+  "processing_success_count": 1,
+  "processing_success_rate": 100.0,
+  "epoch_distribution": {
+    "10.00-10.10": 1
+  },
+  "loss_distribution": {
+    "0.50-0.60": 1
+  },
+  "all_results": [
+    {
+      "puzzle_id": "22425bda",
+      "phase": "training",
+      "grid_size": 32,
+      "train_examples": 4,
+      "epochs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "loss_history": [
+        0.47776079658665427,
+        0.45601617414645623,
+        0.45819287620133703,
+        0.4826123370888614,
+        0.4671395566681787,
+        0.4602480397466437,
+        0.4693727522496768,
+        0.4712636186555446,
+        0.48030324752536163,
+        0.527310743333742
+      ],
+      "time_per_epoch": [
+        0.00014472007751464844,
+        0.00012969970703125,
+        0.00010633468627929688,
+        0.00015473365783691406,
+        7.843971252441406e-05,
+        8.273124694824219e-05,
+        8.440017700195312e-05,
+        0.00010466575622558594,
+        0.00013375282287597656,
+        9.179115295410156e-05
+      ],
+      "total_time": 0.004429340362548828,
+      "converged": false,
+      "final_epoch": 10,
+      "final_loss": 0.527310743333742,
+      "processing_result": {
+        "status": "PASS",
+        "error": null,
+        "detailed_metrics": {}
+      }
+    }
+  ]
+}

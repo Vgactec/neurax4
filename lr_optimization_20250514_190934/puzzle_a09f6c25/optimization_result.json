@@ -1,0 +1,52 @@
+{
+  "puzzle_id": "a09f6c25",
+  "phase": "training",
+  "grid_size": 32,
+  "train_examples": 3,
+  "learning_rates": [
+    {
+      "rate": 0.001,
+      "epochs": 100,
+      "final_loss": 0.5165274435358601,
+      "converged": false,
+      "time": 0.006212711334228516
+    },
+    {
+      "rate": 0.01,
+      "epochs": 100,
+      "final_loss": 0.49755605986344636,
+      "converged": false,
+      "time": 0.005007743835449219
+    },
+    {
+      "rate": 0.05,
+      "epochs": 100,
+      "final_loss": 0.3450680320850494,
+      "converged": false,
+      "time": 0.006494283676147461
+    },
+    {
+      "rate": 0.1,
+      "epochs": 100,
+      "final_loss": 0.25961613548507584,
+      "converged": false,
+      "time": 0.006518125534057617
+    },
+    {
+      "rate": 0.2,
+      "epochs": 100,
+      "final_loss": 0.3118101817614018,
+      "converged": false,
+      "time": 0.004826545715332031
+    }
+  ],
+  "best_learning_rate": 0.1,
+  "best_epochs": 100,
+  "best_loss": 0.25961613548507584,
+  "total_time": 0.038388729095458984,
+  "processing_result": {
+    "status": "PASS",
+    "error": null,
+    "detailed_metrics": {}
+  }
+}

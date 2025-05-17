@@ -1,0 +1,277 @@
+{
+  "phase": "training",
+  "total_puzzles": 5,
+  "valid_results": 5,
+  "average_best_learning_rate": 0.142,
+  "average_epochs": 100.0,
+  "average_final_loss": 0.21795294409242136,
+  "success_count": 5,
+  "success_rate": 100.0,
+  "learning_rate_distribution": {
+    "0.2": 3,
+    "0.1": 1,
+    "0.01": 1
+  },
+  "all_results": [
+    {
+      "puzzle_id": "36d67576",
+      "phase": "training",
+      "grid_size": 32,
+      "train_examples": 3,
+      "learning_rates": [
+        {
+          "rate": 0.001,
+          "epochs": 100,
+          "final_loss": 0.621222924016284,
+          "converged": false,
+          "time": 0.0077533721923828125
+        },
+        {
+          "rate": 0.01,
+          "epochs": 100,
+          "final_loss": 0.48797676759553665,
+          "converged": false,
+          "time": 0.007816553115844727
+        },
+        {
+          "rate": 0.05,
+          "epochs": 100,
+          "final_loss": 0.42200324600955036,
+          "converged": false,
+          "time": 0.007564544677734375
+        },
+        {
+          "rate": 0.1,
+          "epochs": 100,
+          "final_loss": 0.3715572745864452,
+          "converged": false,
+          "time": 0.007102012634277344
+        },
+        {
+          "rate": 0.2,
+          "epochs": 100,
+          "final_loss": 0.2351913108322925,
+          "converged": false,
+          "time": 0.01019287109375
+        }
+      ],
+      "best_learning_rate": 0.2,
+      "best_epochs": 100,
+      "best_loss": 0.2351913108322925,
+      "total_time": 0.044908761978149414,
+      "processing_result": {
+        "status": "PASS",
+        "error": null,
+        "detailed_metrics": {}
+      }
+    },
+    {
+      "puzzle_id": "e3fe1151",
+      "phase": "training",
+      "grid_size": 32,
+      "train_examples": 3,
+      "learning_rates": [
+        {
+          "rate": 0.001,
+          "epochs": 100,
+          "final_loss": 0.4647413488247274,
+          "converged": false,
+          "time": 0.00755763053894043
+        },
+        {
+          "rate": 0.01,
+          "epochs": 100,
+          "final_loss": 0.3566160872131436,
+          "converged": false,
+          "time": 0.007184505462646484
+        },
+        {
+          "rate": 0.05,
+          "epochs": 100,
+          "final_loss": 0.5509733924137795,
+          "converged": false,
+          "time": 0.005135774612426758
+        },
+        {
+          "rate": 0.1,
+          "epochs": 100,
+          "final_loss": 0.16608291698393204,
+          "converged": false,
+          "time": 0.003806591033935547
+        },
+        {
+          "rate": 0.2,
+          "epochs": 100,
+          "final_loss": 0.21516131541270156,
+          "converged": false,
+          "time": 0.0036995410919189453
+        }
+      ],
+      "best_learning_rate": 0.1,
+      "best_epochs": 100,
+      "best_loss": 0.16608291698393204,
+      "total_time": 0.03320646286010742,
+      "processing_result": {
+        "status": "PASS",
+        "error": null,
+        "detailed_metrics": {}
+      }
+    },
+    {
+      "puzzle_id": "e9b4f6fc",
+      "phase": "training",
+      "grid_size": 32,
+      "train_examples": 4,
+      "learning_rates": [
+        {
+          "rate": 0.001,
+          "epochs": 100,
+          "final_loss": 0.4289253924553469,
+          "converged": false,
+          "time": 0.009780406951904297
+        },
+        {
+          "rate": 0.01,
+          "epochs": 100,
+          "final_loss": 0.6233975172206059,
+          "converged": false,
+          "time": 0.007318735122680664
+        },
+        {
+          "rate": 0.05,
+          "epochs": 100,
+          "final_loss": 0.3622683280335778,
+          "converged": false,
+          "time": 0.006526470184326172
+        },
+        {
+          "rate": 0.1,
+          "epochs": 100,
+          "final_loss": 0.21838542605699418,
+          "converged": false,
+          "time": 0.006247282028198242
+        },
+        {
+          "rate": 0.2,
+          "epochs": 100,
+          "final_loss": 0.1579731762788061,
+          "converged": false,
+          "time": 0.00810861587524414
+        }
+      ],
+      "best_learning_rate": 0.2,
+      "best_epochs": 100,
+      "best_loss": 0.1579731762788061,
+      "total_time": 0.049773216247558594,
+      "processing_result": {
+        "status": "PASS",
+        "error": null,
+        "detailed_metrics": {}
+      }
+    },
+    {
+      "puzzle_id": "60a26a3e",
+      "phase": "training",
+      "grid_size": 32,
+      "train_examples": 3,
+      "learning_rates": [
+        {
+          "rate": 0.001,
+          "epochs": 100,
+          "final_loss": 0.4308883104175874,
+          "converged": false,
+          "time": 0.0063762664794921875
+        },
+        {
+          "rate": 0.01,
+          "epochs": 100,
+          "final_loss": 0.27042880192273444,
+          "converged": false,
+          "time": 0.006760835647583008
+        },
+        {
+          "rate": 0.05,
+          "epochs": 100,
+          "final_loss": 0.44381152992435785,
+          "converged": false,
+          "time": 0.006056070327758789
+        },
+        {
+          "rate": 0.1,
+          "epochs": 100,
+          "final_loss": 0.4386406638346414,
+          "converged": false,
+          "time": 0.005368471145629883
+        },
+        {
+          "rate": 0.2,
+          "epochs": 100,
+          "final_loss": 0.27440901386616817,
+          "converged": false,
+          "time": 0.0061032772064208984
+        }
+      ],
+      "best_learning_rate": 0.01,
+      "best_epochs": 100,
+      "best_loss": 0.27042880192273444,
+      "total_time": 0.03312802314758301,
+      "processing_result": {
+        "status": "PASS",
+        "error": null,
+        "detailed_metrics": {}
+      }
+    },
+    {
+      "puzzle_id": "b7955b3c",
+      "phase": "training",
+      "grid_size": 32,
+      "train_examples": 3,
+      "learning_rates": [
+        {
+          "rate": 0.001,
+          "epochs": 100,
+          "final_loss": 0.48941261718148804,
+          "converged": false,
+          "time": 0.005394458770751953
+        },
+        {
+          "rate": 0.01,
+          "epochs": 100,
+          "final_loss": 0.41284095200576915,
+          "converged": false,
+          "time": 0.005807638168334961
+        },
+        {
+          "rate": 0.05,
+          "epochs": 100,
+          "final_loss": 0.4921652294449925,
+          "converged": false,
+          "time": 0.005235433578491211
+        },
+        {
+          "rate": 0.1,
+          "epochs": 100,
+          "final_loss": 0.28769279555269595,
+          "converged": false,
+          "time": 0.005620241165161133
+        },
+        {
+          "rate": 0.2,
+          "epochs": 100,
+          "final_loss": 0.2600885144443417,
+          "converged": false,
+          "time": 0.005492448806762695
+        }
+      ],
+      "best_learning_rate": 0.2,
+      "best_epochs": 100,
+      "best_loss": 0.2600885144443417,
+      "total_time": 0.03193831443786621,
+      "processing_result": {
+        "status": "PASS",
+        "error": null,
+        "detailed_metrics": {}
+      }
+    }
+  ]
+}

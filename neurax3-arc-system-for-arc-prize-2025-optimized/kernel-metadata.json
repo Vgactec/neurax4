@@ -1,0 +1,13 @@
+{
+  "id": "ndarray2000/neurax3-arc-system-optimized",
+  "title": "Neurax3 ARC System Optimisé - Traitement Complet",
+  "code_file": "kernel.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": true,
+  "dataset_sources": ["kaggle/arc-prize-2025"],
+  "competition_sources": ["arc-prize-2025"],
+  "kernel_sources": []
+}

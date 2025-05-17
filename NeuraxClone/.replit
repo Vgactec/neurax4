@@ -1,0 +1,28 @@
+modules = ["python-3.11", "python3"]
+
+[nix]
+channel = "stable-24_05"
+packages = ["cairo", "ffmpeg-full", "freetype", "ghostscript", "git", "glibcLocales", "gobject-introspection", "gtk3", "jq", "libxcrypt", "pkg-config", "qhull", "tcl", "tk", "unzip", "xsimd"]
+
+[workflows]
+runButton = "Project"
+
+[[workflows.workflow]]
+name = "Project"
+mode = "parallel"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "Verification Complete"
+
+[[workflows.workflow]]
+name = "Verification Complete"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "cd neurax3 && python verify_complete_system_fixed.py"
+
+[deployment]
+run = ["sh", "-c", "python analyse_repo.py"]

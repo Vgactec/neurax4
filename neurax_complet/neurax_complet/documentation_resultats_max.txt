@@ -1,0 +1,30 @@
+
+# Documentation des Résultats de Simulation Quantique (Paramètres Maximaux)
+
+## Paramètres de Simulation
+- Taille de grille: 100 x 100 x 100
+- Intensité des fluctuations: 0.001
+- Nombre d'itérations: 500
+
+## Configuration de l'Exécution
+```python
+grid_size = 100
+intensity = 0.001
+iterations = 500
+```
+
+## Métriques Attendues
+- Courbure moyenne: ~1e-7
+- Courbure maximale: ~5e-6
+- Énergie totale: ~9e-4
+- Densité quantique: ~6e+28 /m³
+
+## Observations et Analyses
+Les résultats de cette simulation à paramètres maximaux devraient révéler:
+1. Une plus grande précision des fluctuations quantiques
+2. Des structures émergentes plus détaillées
+3. Une meilleure conservation de l'énergie
+4. Des motifs fractals plus complexes
+
+## Note
+Les résultats exacts seront automatiquement ajoutés à ce document après l'exécution de la simulation.

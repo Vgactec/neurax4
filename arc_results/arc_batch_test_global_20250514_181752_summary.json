@@ -1,0 +1,33 @@
+{
+  "timestamp": "20250514_181752",
+  "total_puzzles_processed": 16,
+  "total_successful_puzzles": 16,
+  "global_success_rate": 100.0,
+  "total_duration": 1.4760453701019287,
+  "phases": {
+    "training": {
+      "total_puzzles": 10,
+      "successful_puzzles": 10,
+      "success_rate": 100.0,
+      "duration": 1.1465649604797363
+    },
+    "evaluation": {
+      "total_puzzles": 3,
+      "successful_puzzles": 3,
+      "success_rate": 100.0,
+      "duration": 0.14417076110839844
+    },
+    "test": {
+      "total_puzzles": 3,
+      "successful_puzzles": 3,
+      "success_rate": 100.0,
+      "duration": 0.16575193405151367
+    }
+  },
+  "configuration": {
+    "use_gpu": true,
+    "use_mobile": false,
+    "time_steps": 8,
+    "batch_size": 5
+  }
+}

@@ -1,0 +1,80 @@
+[
+  {
+    "puzzle_id": "00576224",
+    "phase": "test",
+    "status": "PASS",
+    "grid_size": 32,
+    "simulator_details": {
+      "processing_time": 0.07137537002563477,
+      "grid_size": 32,
+      "time_steps": 8,
+      "performance": {
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "execution_times": [
+          [
+            "quantum_fluctuations",
+            0.0004000663757324219
+          ],
+          [
+            "simulate_step",
+            0.0033566951751708984
+          ]
+        ]
+      }
+    },
+    "duration": 0.0764768123626709
+  },
+  {
+    "puzzle_id": "007bbfb7",
+    "phase": "test",
+    "status": "PASS",
+    "grid_size": 32,
+    "simulator_details": {
+      "processing_time": 0.0722506046295166,
+      "grid_size": 32,
+      "time_steps": 8,
+      "performance": {
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "execution_times": [
+          [
+            "quantum_fluctuations",
+            0.00035452842712402344
+          ],
+          [
+            "simulate_step",
+            0.0038182735443115234
+          ]
+        ]
+      }
+    },
+    "duration": 0.07331323623657227
+  },
+  {
+    "puzzle_id": "009d5c81",
+    "phase": "test",
+    "status": "PASS",
+    "grid_size": 32,
+    "simulator_details": {
+      "processing_time": 0.040491580963134766,
+      "grid_size": 32,
+      "time_steps": 8,
+      "performance": {
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "execution_times": [
+          [
+            "quantum_fluctuations",
+            0.00032520294189453125
+          ],
+          [
+            "simulate_step",
+            0.0031914710998535156
+          ]
+        ]
+      }
+    },
+    "duration": 0.047063589096069336
+  }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "puzzle_id": "00576224",
+    "phase": "test",
+    "status": "PASS",
+    "grid_size": 32,
+    "simulator_details": {
+      "processing_time": 0.0016765594482421875,
+      "grid_size": 32,
+      "time_steps": 8,
+      "gpu_used": false,
+      "performance": {
+        "cache_hits": 0,
+        "cache_misses": 1,
+        "execution_times": [
+          [
+            "quantum_fluctuations",
+            0.0007572174072265625
+          ],
+          [
+            "simulate_step",
+            0.00024271011352539062
+          ]
+        ]
+      }
+    },
+    "duration": 0.05568838119506836
+  }
+]
